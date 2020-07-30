@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/storeHolder"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="12dp"
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp" />
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/storeInitialName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N"
+                android:textSize="29dp"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/storeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Card"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/quantum_black_100" />
+
+
+            <TextView
+                android:id="@+id/storeChainName"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/mdtp_dark_gray" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:tint="@color/quantum_black_100"
+           />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content" >
+    <RadioButton
+        android:id="@+id/op1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Determinante                                     " />
+
+    <RadioButton
+        android:id="@+id/op2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadena" />
+    <RadioButton
+        android:id="@+id/op3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sucursal" />
+
+</LinearLayout>
